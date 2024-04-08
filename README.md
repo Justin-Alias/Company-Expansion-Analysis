@@ -8,6 +8,7 @@ You're a data scientist working for a laundry-pickup services startup. This is a
 * Data Processing
 * Custom Territories Via Groups or Geographic Roles
 * Clusters
+* Highlighters
 * Cross-Database Joins
 * Data Visualization
 
