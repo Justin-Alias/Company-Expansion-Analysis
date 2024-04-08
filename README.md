@@ -1,5 +1,5 @@
 # Company-Expansion-Analysis
-#### -- Project Status: [Completed]
+#### -- Project Status: [Work In Progress]
 
 ## Project Intro/Objective
 You're a data scientist working for a laundry-pickup services startup. This is a relatively small company and they cannot compete with the big players in major cities. The company has a strong presence in 140 locations and recently opened stores in 10 new cities. The company has two separate sales regions.
