@@ -1,5 +1,5 @@
 # Company-Expansion-Analysis
-#### -- Project Status: [Work In Progress]
+#### -- Project Status: [Completed]
 
 ## Project Intro/Objective
 You're a data scientist working for a laundry-pickup services startup. This is a relatively small company and they cannot compete with the big players in major cities. The company has a strong presence in 140 locations and recently opened stores in 10 new cities. The company has two separate sales regions.
@@ -35,8 +35,16 @@ Identify which of the two sales regions is performing better based on the follow
 
 Idenitfy which of the 10 new locations have the best potential for the comapny to invest more funds into marketing. 
 ## Findings:
+The first part of my objective was to identify which of the two regions are performing better based on a few metrics (see above). A sheet was created designed such that the data is easily readable. As the image indicates below the better performing region is Region 1 as there is a lower average market spending while maintaining a higher revenue and return on market investment. 
 
-## Link to Data Source (Section 8: Clusters, Custom territories, Design features):
+![Image 1](https://github.com/Justin-Alias/Company-Expansion-Analysis/assets/45494262/eae29b58-bc3e-4a54-80aa-05e292c308e7)
+
+
+The second part of the objective was to determine which of the new locations have the best potential for the comapny to invest more funds into marketing aka greatest return on investment. The first step was creating a join between two separate data sources and cleaning the data such that there no duplicate cities. Was the data was cleaned and processed I utilized Tableau clusters to section the new locations on the following metrics (Sum of Marketing Spend, Revenue, and Population). After looking at the trendline of each of the three clusters I concluded the the locations that offer the best potential return are Store ID's: 146, 150, 148, and 143 as for every $1 spent into marketing they are projected to make $7.3* in revenue as highlighted by the image below. 
+
+![Image 2](https://github.com/Justin-Alias/Company-Expansion-Analysis/assets/45494262/cec779c1-ae12-43b7-8565-0b9982a4ca2c)
+
+## Link to Data Source:
 * https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/P1-StartupExpansion.xlsx
 
 * https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/P1-US-Cities-Population.csv
